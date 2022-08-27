@@ -1,22 +1,28 @@
 {
-    "restaurant": [
-        {
-            "id": 1,
-            "name": "KFC",
-            "address": "Tabata Kinyerezi",
-            "email": "kfc@gmail.com"
-        },
-        {
-            "id": 2,
-            "name": "Gwaka",
-            "address": "Tabata Makulu",
-            "email": "gwaka@gmail.com"
-        },
-        {
-            "id": 3,
-            "name": "Wallet Restaurant",
-            "address": "Kenya",
-            "email": "wallet@gmail.com"
-        }
-    ]
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "KFC",
+      "address": "Tabata Kinyerezi",
+      "email": "kfc@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Gwaka",
+      "address": "Tabata Makulu",
+      "email": "gwaka@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Wallet Restaurant",
+      "address": "Kenya",
+      "email": "wallet@gmail.com"
+    },
+    {
+      "name": "tst",
+      "email": "test@gmail.com",
+      "address": "temeke",
+      "id": 4
+    }
+  ]
 }
