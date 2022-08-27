@@ -11,6 +11,7 @@ export class RestoService {
   constructor(private http: HttpClient) { }
 
   getList() {
+    // console.warn("data get")
     return this.http.get(this.url);
   }
   
