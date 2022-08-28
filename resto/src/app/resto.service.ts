@@ -24,5 +24,23 @@ export class RestoService {
     return this.http.post(this.url, data);
   }
 
+  //delete data to server
+  deleteResto(id :any){
+    // console.warn("services", data);
+    return this.http.delete(`${this.url}/${id}`);
+  }
+
+  //get data with id data to server
+  getCurrentResto(id :any){
+    // console.warn("services", data);
+    return this.http.get(`${this.url}/${id}`);
+  }
+
+  //delete data to server
+  updateResto(id :any,data : any){
+    // console.warn("services", data);
+    return this.http.put(`${this.url}/${id}`,data);
+  }
+
   
 }

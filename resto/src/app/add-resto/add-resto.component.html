@@ -1,3 +1,10 @@
+<h1>Add Restaurant</h1>
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Holy guacamole!</strong> Data is added successfully.
+    <button (click)="closeAlert()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
 <form [formGroup]="addResto" (ngSubmit)="collectResto()">
     <div class="form-group">
         <label>Name</label>
